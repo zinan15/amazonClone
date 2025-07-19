@@ -96,6 +96,7 @@ margin-top: 10px;
   background: #ffd64f;
   border-radius: 0px 4px 4px 0px;
   cursor: pointer;
+  margin-left: 200px;
   
 }
 .nav-search-icon:hover{
@@ -270,39 +271,40 @@ margin-left: 5px;
     row-gap: 20px;
     justify-content: space-between;
     margin: 10px 15px;
-    margin-top: -288px;
+    margin-top: -340px;
 
 }
 .box-column{
   display: flex;
   flex-direction: column;
-  gap: 5px;
   padding: 15px 20px;
   background: #fff;
   max-width: 24%;
-  min-height: 400px;
-  height: 100px;
+  min-height: 420px;
+  height: 420px;
   z-index: 1;
-  width: 300px;
+  width: 360px;
   
 }
 .item-image-large{
-  height: 303px;
-  width: 250px;
+  height: 310px;
+  width: 320px;
   cursor: pointer;
   align-items: center;
+  margin-top: 10px;
 }
 
 .item-image{
-  height: 102px;
-  width: 120px;
+  height: 110px;
+  width: 155px;
   cursor: pointer;
+  margin-top: 20px;
 }
 .item-image-sqaure{
   margin-left: -1px;
   margin-top: 10px;
-  height: 115px;
-  width: 120px;
+  height: 130px;
+  width: 155px;
   cursor: pointer;
 }
 
@@ -332,7 +334,7 @@ margin-left: 5px;
   color: blue;
   font-weight: 300;
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .link2{
   color: blue;
@@ -367,35 +369,51 @@ margin-left: 5px;
     margin-top: 20px;
 }
 .item-image-single{
-  width: 260px;
-  height: 145px;
+  width: 315px;
+  height: 150px;
   cursor: pointer;
   align-items: center;
+  margin-top: 7px;
 }
 .item-image-small{
-  width: 83.5px;
-  height: 70px;
+  width: 102px;
+  height: 79px;
   cursor: pointer;
+  margin-top: 7px;
+}
+.item-image2{
+  height: 95px;
+  width: 155px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 .third-row{
-  width: 1235px;
+  width: 1490px;
   height: 240px;
   background: white;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 15px;
-  margin-top: 18px;
+  margin-top: 25px;
  
 }
 .img-third{
-  width: 250px;
+  width: 310px;
   height: 170px;
   display: flex;
-  gap: 30px;
+  gap: 40px;
   margin: -170px;
   margin-bottom: -190px;
+}
+.img-row{
+  height: 170px;
+  width: 500px;
+
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 9px;
 }
 .third-text{
   margin-top: -190px;
@@ -405,9 +423,9 @@ margin-left: 5px;
 }
 .img-fourth{
  width: 0px;
-  height: 170px;
+  height: 220px;
   display: flex;
-  gap: 30px;
+  gap: 40px;
   margin-left: -280px;
   margin-bottom: -40px;
  
